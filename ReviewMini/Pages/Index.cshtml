@@ -1,0 +1,24 @@
+@page
+@model ReviewMini.Pages.IndexModel
+
+<h1>Products</h1>
+<p>Click a product to view reviews and leave your own.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Description</th>
+            <th>Avg. Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model.Products)
+    {
+        <tr>
+            <td><a href="/Product/Details?id=@p.Id">@p.Name</a></td>
+            <td>@p.Description</td>
+            <td>@(p.AverageRating > 0 ? p.AverageRating.ToString("0.00") : "—")</td>
+        </tr>
+    }
+    </tbody>
+</table>

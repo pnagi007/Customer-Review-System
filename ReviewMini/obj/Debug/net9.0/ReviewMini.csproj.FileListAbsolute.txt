@@ -1,0 +1,69 @@
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.staticwebassets.runtime.json
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.staticwebassets.endpoints.json
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.exe
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.deps.json
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.runtimeconfig.json
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.dll
+d:\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.pdb
+d:\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+d:\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+d:\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.AssemblyReference.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\rpswa.dswa.cache.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.GeneratedMSBuildEditorConfig.editorconfig
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.AssemblyInfoInputs.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.AssemblyInfo.cs
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.CoreCompileInputs.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.MvcApplicationPartsAssemblyInfo.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.RazorAssemblyInfo.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.RazorAssemblyInfo.cs
+d:\mini project\ReviewMini\obj\Debug\net9.0\rjimswa.dswa.cache.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\scopedcss\bundle\ReviewMini.styles.css
+d:\mini project\ReviewMini\obj\Debug\net9.0\compressed\o0mqtwakpq-9s9rdrvr7j.gz
+d:\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.json.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.development.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.Up2Date
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.dll
+d:\mini project\ReviewMini\obj\Debug\net9.0\refint\ReviewMini.dll
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.pdb
+d:\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.genruntimeconfig.cache
+d:\mini project\ReviewMini\obj\Debug\net9.0\ref\ReviewMini.dll
+D:\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.staticwebassets.runtime.json
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.staticwebassets.endpoints.json
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.exe
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.deps.json
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.runtimeconfig.json
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.dll
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\ReviewMini.pdb
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\mini project\mini project\ReviewMini\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.AssemblyReference.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\rpswa.dswa.cache.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.GeneratedMSBuildEditorConfig.editorconfig
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.AssemblyInfoInputs.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.AssemblyInfo.cs
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.CoreCompileInputs.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.MvcApplicationPartsAssemblyInfo.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.RazorAssemblyInfo.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.RazorAssemblyInfo.cs
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\rjimswa.dswa.cache.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\scopedcss\bundle\ReviewMini.styles.css
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\compressed\o0mqtwakpq-9s9rdrvr7j.gz
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.development.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.csproj.Up2Date
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.dll
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\refint\ReviewMini.dll
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.pdb
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ReviewMini.genruntimeconfig.cache
+E:\mini project\mini project\ReviewMini\obj\Debug\net9.0\ref\ReviewMini.dll

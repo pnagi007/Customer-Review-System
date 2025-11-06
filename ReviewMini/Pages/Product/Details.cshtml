@@ -1,0 +1,140 @@
+@page
+@model ReviewMini.Pages.ProductPage.DetailsModel
+
+<style>
+    .message { 
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 4px;
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        animation: slideDown 4s ease-in-out forwards;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        min-width: 300px;
+        text-align: center;
+    }
+    .success { 
+        background-color: #dff0d8; 
+        border: 1px solid #d6e9c6; 
+        color: #3c763d; 
+    }
+    @@keyframes slideDown {
+        0% { 
+            transform: translate(-50%, -100%);
+            opacity: 0;
+        }
+        10% { 
+            transform: translate(-50%, 0);
+            opacity: 1;
+        }
+        90% { 
+            transform: translate(-50%, 0);
+            opacity: 1;
+        }
+        100% { 
+            transform: translate(-50%, -100%);
+            opacity: 0;
+        }
+    }
+</style>
+
+@if (TempData["Message"] != null)
+{
+    <div class="message success">@TempData["Message"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="message" style="background-color:#f2dede;border:1px solid #ebccd1;color:#a94442;">@TempData["Error"]</div>
+}
+
+<h2>@Model.Product?.Name</h2>
+<p>@Model.Product?.Description</p>
+<p><strong>Average rating:</strong> @(Model.Product?.AverageRating > 0 ? Model.Product!.AverageRating.ToString("0.00") : "—")</p>
+
+<form method="get">
+    <label>Filter by rating:
+        <select name="ratingFilter" onchange="this.form.submit()">
+            <option value="">All</option>
+            @for (int i = 5; i >= 1; i--)
+            {
+                if (Model.RatingFilter == i)
+                {
+                    <option value="@i" selected>@i stars</option>
+                }
+                else
+                {
+                    <option value="@i">@i stars</option>
+                }
+            }
+        </select>
+    </label>
+    <input type="hidden" name="id" value="@Model.Product?.Id" />
+</form>
+
+<h3>Reviews</h3>
+@if (Model.Reviews.Any())
+{
+    <ul>
+    @foreach (var r in Model.Reviews)
+    {
+        <li><strong>@r.Customer?.Name</strong> — @r.Rating stars<br />@r.Comment</li>
+    }
+    </ul>
+}
+else
+{
+    <p>No reviews yet.</p>
+}
+
+<h3>Leave a review</h3>
+<form method="post" asp-page-handler="AddReview">
+    <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+    <input asp-for="Input.ProductId" type="hidden" value="@Model.Product?.Id" />
+
+    <label>Customer:
+        <select asp-for="Input.CustomerId">
+            <option value="">-- choose --</option>
+            @foreach (var c in Model.Customers)
+            {
+                if (Model.Input != null && Model.Input.CustomerId == c.Id)
+                {
+                    <option value="@c.Id" selected>@c.Name</option>
+                }
+                else
+                {
+                    <option value="@c.Id">@c.Name</option>
+                }
+            }
+        </select>
+    </label>
+    <div class="field-validation">@Html.ValidationMessage("Input.CustomerId")</div>
+
+    <label>Rating:
+        <select asp-for="Input.Rating">
+            <option value="">-- choose --</option>
+            @for (int i=1;i<=5;i++)
+            {
+                if (Model.Input != null && Model.Input.Rating == i)
+                {
+                    <option value="@i" selected>@i</option>
+                }
+                else
+                {
+                    <option value="@i">@i</option>
+                }
+            }
+        </select>
+    </label>
+    <div class="field-validation">@Html.ValidationMessage("Input.Rating")</div>
+
+    <label>Comment:<br />
+        <textarea asp-for="Input.Comment" rows="3" cols="40"></textarea>
+    </label>
+
+    <div>
+        <button type="submit">Submit Review</button>
+    </div>
+</form>
